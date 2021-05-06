@@ -13,12 +13,11 @@
 1. `git clone https://github.com/reobin/typewritten.git $ZSH_CUSTOM/themes/typewritten`
 2. `ln -s "$ZSH_CUSTOM/themes/typewritten/typewritten.zsh-theme" "$ZSH_CUSTOM/themes/typewritten.zsh-theme" && ln -s "$ZSH_CUSTOM/themes/typewritten/async.zsh" "$ZSH_CUSTOM/themes/async"`
 * .zshrc
-1. `git clone https://github.com/Otus9051/dotfiles.git`
-2. `cd dotfiles`
-3. `cp .zshrc ~/.zshrc`
+1. `wget https://raw.githubusercontent.com/Otus9051/dotfiles/main/.zshrc ~/.zshrc` or 
+2. `curl https://raw.githubusercontent.com/Otus9051/dotfiles/main/.zshrc >> ~/.zshrc`
 * Gnome
-1. Install `gnome-desktop` or `gnome` depending on your system from your package manager.
-2. Do `systemctl enable gdm` or equivalent for other systems not runnning `systemctl`. Or you might want to put that in your `~/.xinitrc` by putting these lines in:
+3. Install `gnome-desktop` or `gnome` depending on your system from your package manager.
+4. Do `systemctl enable gdm` or equivalent for other systems not runnning `systemctl`. Or you might want to put that in your `~/.xinitrc` by putting these lines in:
 ```
 export XDG_SESSION_TYPE=x11
 export GDK_BACKEND=x11
