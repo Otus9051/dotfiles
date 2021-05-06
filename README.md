@@ -32,9 +32,10 @@ and you are done!
 5. Do `mkdir ~/.themes` folder or if you prefer `/usr/share/themes`, skip this step.
 6. Do `cp -r ZorinBlue-Dark ~/.themes` or for `/usr/share/themes` do `sudo cp -r ZorinBlue-Dark /usr/share/themes`
 7. Download and install `gnome-tweaks` and `gnome-shell-extensions` from your package manager.
-8. Open `gnome-tweaks` and choose `ZorinBlue-Dark` as the Shell and Applications theme. You are now pretty much done for the theming.
+8. Open `gnome-tweaks` and choose `ZorinBlue-Dark` as the Shell and Applications theme. 
+9. For the wallpaper, I used it from M I C R O S O F T (dies), but its a pretty good one, find it [here](https://wallpaperhub.app/wallpapers/7364)
 * Pop-Shell
-1. If you want to get auto-tiling and other quirks in Gnome, I suggest Pop-Shell. To install it, do:
+10. If you want to get auto-tiling and other quirks in Gnome, I suggest Pop-Shell. To install it, do:
 `git clone https://github.com/pop-os/shell.git && cd shell && make local-install`
 2. Then, at the right side of the top bar, an icon appears. Click on it and turn on "Tile Windows", and done!
 ### Hopefully you liked my dotfiles, happy ricing!
