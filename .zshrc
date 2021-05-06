@@ -1,6 +1,6 @@
 # By Otus9051
 # Init
-export ZSH="/home/bee/oh-my-zsh"
+export ZSH="/home/bee/.oh-my-zsh"
 # Theme
 ZSH_THEME="typewritten"
 # Plugins
