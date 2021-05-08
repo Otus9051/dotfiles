@@ -39,3 +39,4 @@ and you are done!
 `git clone https://github.com/pop-os/shell.git && cd shell && make local-install`
 2. Then, at the right side of the top bar, an icon appears. Click on it and turn on "Tile Windows", and done!
 ### Hopefully you liked my dotfiles, happy ricing!
+##[Go to Home](https://otus9051.github.io)
